@@ -1,0 +1,104 @@
+
+* {
+    box-sizing: border-box;
+}
+
+main {
+    max-width: 1000px; 
+    margin: 0 auto;    
+    width: 100%;      
+}
+
+body {
+    font-family: system-ui;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+header { 
+    height: 10vh; 
+    background: #3498db; 
+    color: white;
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    text-align: center;
+}
+
+#banner {
+    height: 500px; 
+    width: 100%;
+    background-image: url('https://paradisoturismo.com.br/wp-content/uploads/2024/05/franca9.jpg');
+    background-position: top; 
+    background-repeat: no-repeat;
+    background-size: cover; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7); 
+    font-size: 2.5rem; 
+    font-weight: bold;
+    text-align: center; 
+    padding: 0 10px; 
+}
+
+/* Navegação Mínima */
+nav { 
+    display: flex; 
+    justify-content: center; 
+    gap: 20px; 
+    padding: 20px; 
+    background: #fff; 
+    position: sticky; 
+    top: 0; 
+    z-index: 100;
+    border-bottom: 1px solid #ddd;
+}
+
+nav a { 
+    text-decoration: none; 
+    color: #333; 
+    font-weight: bold; 
+    font-size: 0.9rem; 
+}
+
+section { 
+    padding: 80px 20px; 
+    text-align: center; 
+    border-bottom: 1px solid #eee;
+    background: #fff; 
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin: 20px 0;
+}
+
+.sec { 
+    background: #f9f9f9;
+}
+
+h2 { 
+    margin-bottom: 20px; 
+    color: #2c3e50; 
+}
+
+p { 
+    font-weight: bold; 
+    max-width: 600px; 
+    margin: 15px auto; 
+    color: #131212; 
+    line-height: 1.6;
+}
+
+
+a[href="#topo"] {
+    display: inline-block;
+    margin-top: 20px;
+    color: #3498db;
+    text-decoration: none;
+    font-size: 0.8rem;
+}
