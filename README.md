@@ -1,4 +1,4 @@
-ploOi, meu nome é Paulo
+Oi, meu nome é Paulo
 Este é o meu Projeto de certificação HTML e CSS – Agência de viagem
 
 Funcionalidades
